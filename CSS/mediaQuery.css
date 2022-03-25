@@ -1,0 +1,144 @@
+@media screen and (max-width: 1000px) {
+  .intro-home-page {
+    display: none;
+  }
+  .img-home-page {
+    display: none;
+  }
+
+  .home-page-mobile {
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../asstes/bg-body-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-top: 10rem;
+  }
+  span {
+    font-family: "Poppins", sans-serif;
+    color: rgb(144, 147, 150);
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .home-page {
+    display: none;
+  }
+  .home-page-mobile-text {
+    height: 25rem;
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .about-img-container-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .about-img-container {
+    display: none;
+  }
+  .about-me-heading-mobile {
+    display: block;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  .about-mobile-container {
+    display: block;
+    margin-left: -2rem;
+  }
+  .about-me-text-mobile {
+    font-family: "Poppins", sans-serif;
+    color: rgb(173, 173, 173);
+    display: block;
+  }
+  .about-me-text {
+    display: none;
+  }
+  .about-me-heading {
+    display: none;
+  }
+  .contactme {
+    display: none;
+  }
+  .contact-text {
+    display: none;
+  }
+  .contact-text-mobile {
+    display: block;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  .contactme-mobile-view {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .latest-Project-mobile {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    display: block;
+  }
+  .latest-Project {
+    display: none;
+  }
+  .project-card {
+    display: none;
+  }
+  .project-card-mobile {
+    display: block;
+    margin-top: -6rem;
+  }
+  .box-mobile {
+    background-image: url("../Asstes/vladyslav-bahara-EOva41PiBYg-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 35rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .box-mobile:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(248, 0, 77, 1),
+      rgba(8, 113, 145, 0.6) 100%
+    );
+  }
+  .about-data-mobile {
+    display: block;
+    margin-right: -9px;
+    margin-left: -2rem;
+  }
+  .about-data {
+    display: none;
+  }
+  .about-text {
+    margin-left: 1rem;
+  }
+  .list-about-me-mobile {
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-left: -3rem;
+  }
+  .project-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    color: white;
+  }
+  .mobile-view-about {
+    margin-left: 1rem;
+  }
+  .list-about-me {
+    display: none;
+  }
+}

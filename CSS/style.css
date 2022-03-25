@@ -1,0 +1,276 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: black;
+  /* height: calc(100vh - 50px); */
+  height: 15rem;
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 998px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
+
+body {
+  background-color: black;
+}
+
+.header-menu {
+  background-color: black;
+}
+.topmenu-item {
+  font-family: "Poppins", sans-serif;
+  border-bottom: 3px solid black;
+}
+.topmenu-item:hover {
+  border-bottom: 3px solid white;
+}
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(144, 147, 150);
+  font-size: 2.5rem;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.contact-btn {
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(105, 102, 102);
+}
+.header-container {
+  height: 4rem;
+  background-color: black;
+  width: 100%;
+}
+.heading-Portfolio {
+  display: none;
+}
+@media screen and (max-width: 995px) {
+  .contact-btn {
+    display: none;
+  }
+  .heading-Portfolio {
+    display: block;
+  }
+}
+.home-page-mobile {
+  display: none;
+}
+@media screen and (max-width: 896px) {
+  .intro-home-page {
+    display: none;
+  }
+  .img-home-page {
+    display: none;
+  }
+  .home {
+    display: none;
+  }
+}
+.mobile-view-home {
+  padding: 5rem;
+}
+
+.about-me-heading {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.about-me-heading-mobile {
+  display: none;
+}
+.about-me-text {
+  font-family: "Poppins", sans-serif;
+  color: rgb(173, 173, 173);
+}
+.about-me-text-mobile {
+  display: none;
+}
+.about-text {
+  color: white;
+  border-bottom: 1px solid white;
+  font-family: "Poppins", sans-serif;
+}
+.about-text:hover {
+  border-bottom: 1px solid rgb(194, 44, 69);
+  color: rgb(194, 44, 69);
+}
+.list-about-me {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: -2rem;
+}
+.about-mobile-container {
+  display: none;
+}
+.contact-btn {
+  background-color: black;
+  color: white;
+}
+.input-form {
+  background-color: black;
+  color: white;
+}
+
+.box {
+  background-image: url("../Asstes/vladyslav-bahara-EOva41PiBYg-unsplash.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 25rem;
+  width: 20rem;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.box:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 0, 77, 1),
+    rgba(8, 113, 145, 0.6) 100%
+  );
+}
+
+.about-container {
+  margin-top: 7rem;
+}
+
+@media screen and (max-width: 998px) {
+  .about-container {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+  .about-img-container {
+    margin-left: 2rem;
+  }
+  .about-text {
+    margin-left: 2rem;
+  }
+  #Project {
+    font-size: 2.5rem;
+  }
+}
+
+.home-page {
+  display: block;
+  height: 60rem;
+  width: 100%;
+
+  background-image: url("../asstes/bg-body-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.home-content {
+  height: 50rem;
+  width: 100%;
+}
+.about-img-container-mobile {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+.latest-Project {
+  font-size: 4.5rem;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+.latest-Project-mobile {
+  display: none;
+}
+.contactme {
+  display: block;
+  height: 30rem;
+  width: 100%;
+}
+.contact-text {
+  display: block;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.contactme-mobile-view {
+  display: none;
+}
+.project-card {
+  display: block;
+}
+.project-card-mobile {
+  display: none;
+}
+.about-data {
+  display: block;
+  margin-left: -2rem;
+}
+.about-data-mobile {
+  display: none;
+}
